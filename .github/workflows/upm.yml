@@ -15,4 +15,5 @@ jobs:
       run: |
         git subtree split -P "$PKG_ROOT" -b upm
         git push -u origin upm
+    env:
         PKG_ROOT: Packages/mmzk.testutils
